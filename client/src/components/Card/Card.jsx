@@ -32,7 +32,16 @@ function Card({ ticket, group }) {
                     <span className="light-font">{ticket.tag}</span>
                 </div>
             </div>
-
+            <div className="userImage">
+                {group !== "userId" && (
+                    <span>
+                        {ticket.userIcon &&
+                            React.createElement(ticket.userIcon, {
+                                className: "icons-class",
+                            })}
+                    </span>
+                )}
+            </div>
         </div>
     );
 }

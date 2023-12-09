@@ -1,0 +1,33 @@
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    height: 120px;
+    width: 235px;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.col-2 {
+    display: flex;
+    align-items: flex-start;
+
+}
+
+.col-2 span {
+    margin-right: 5px;
+}
+
+.col-3 {
+    display: flex;
+    align-items: center;
+}

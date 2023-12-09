@@ -1,17 +1,17 @@
 import React, { useEffect, useState } from 'react';
 import Group from './components/Group/Group';
 import Navbar from './components/Navbar/Navbar';
-import { FaExclamationTriangle, FaAdn } from 'react-icons/fa';
-import { BiDotsHorizontalRounded } from 'react-icons/bi';
-import { FcTodoList, FcApproval, FcLowPriority, FcMediumPriority, FcHighPriority, FcCancel, FcPieChart, FcExpired, FcBusinessman, FcManager, FcServiceMark, FcLinux } from "react-icons/fc";
+import { FaAdn } from 'react-icons/fa';
+import { BiDotsHorizontalRounded, BiSignal5 } from 'react-icons/bi';
+import { FcTodoList, FcApproval, FcLowPriority, FcMediumPriority, FcHighPriority, FcCancel, FcProcess, FcAlarmClock, FcAssistant, FcManager, FcServiceMark, FcReading } from "react-icons/fc";
 import './App.css';
 
 function App() {
   const URL = 'https://api.quicksell.co/v1/internal/frontend-assignment';
   const icons = {
-    status: [FcTodoList, FcApproval, FcPieChart, FcCancel, FcExpired],
-    userId: [FaAdn, FcBusinessman, FcServiceMark, FcManager, FcLinux],
-    priority: [BiDotsHorizontalRounded, FcLowPriority, FcMediumPriority, FaExclamationTriangle, FcHighPriority]
+    status: [FcTodoList, FcApproval, FcProcess, FcCancel, FcAlarmClock],
+    userId: [FaAdn, FcAssistant, FcServiceMark, FcManager, FcReading],
+    priority: [BiDotsHorizontalRounded, FcLowPriority, FcMediumPriority, BiSignal5, , FcHighPriority]
   };
 
 

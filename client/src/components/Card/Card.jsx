@@ -29,7 +29,7 @@ function Card({ ticket, group }) {
                 })}
             </span>
           )}
-          <span className="light-font">{ticket.tag}</span>
+          <span className="">{ticket.tag}</span>
         </div>
       </div>
       <div className="userImage">

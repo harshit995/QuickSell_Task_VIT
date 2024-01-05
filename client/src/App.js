@@ -1,16 +1,18 @@
 import React, { useEffect, useState } from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Group from './components/Group/Group';
 import Navbar from './components/Navbar/Navbar';
 import { BiDotsHorizontalRounded, BiSignal5 } from 'react-icons/bi';
 import { FcTodoList, FcApproval, FcReddit, FcLowPriority, FcMediumPriority, FcHighPriority, FcCancel, FcProcess, FcAlarmClock, FcAssistant, FcManager, FcServiceMark, FcReading } from "react-icons/fc";
 import './App.css';
 
+
 function App() {
   const URL = 'https://api.quicksell.co/v1/internal/frontend-assignment';
   const icons = {
     status: [FcTodoList, FcApproval, FcProcess, FcCancel, FcAlarmClock],
     userId: [FcReddit, FcAssistant, FcServiceMark, FcManager, FcReading],
-    priority: [BiDotsHorizontalRounded, FcLowPriority, FcMediumPriority, BiSignal5, , FcHighPriority]
+    priority: [BiDotsHorizontalRounded, FcLowPriority, FcMediumPriority, BiSignal5, FcHighPriority]
   };
 
 

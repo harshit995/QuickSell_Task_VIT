@@ -159,7 +159,7 @@ function App() {
   return (
     <div className="App">
       <div><Navbar setGroup={setGroup} setOrder={setOrder} /></div>
-      <div className="groups-container">
+      <div className="groups-container ">
         {groupData.length === 0 ? (
           <p>Loading...</p>
         ) : (

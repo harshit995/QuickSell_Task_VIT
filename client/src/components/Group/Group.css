@@ -1,26 +1,30 @@
 .title-of-group {
   display: flex;
   justify-content: space-between;
-  align-items: center;   
+  align-items: center;
 }
+
 .group {
   padding: 5px;
   margin: 5px;
   width: 250px;
 }
+
 .icons-of-group span {
- padding:0 5px;
+  padding: 0 5px;
 }
-.icons-of-group{
+
+.icons-of-group {
   display: flex;
   justify-content: space-between;
 }
+
 @media (max-width: 768px) {
-  .group{
+  .group {
     width: 90%;
   }
-  .cards{
+
+  .cards {
     width: 100%;
   }
 }
-

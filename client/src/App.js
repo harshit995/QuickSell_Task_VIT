@@ -4,7 +4,7 @@ import Group from './components/Group/Group';
 import Navbar from './components/Navbar/Navbar';
 import { BiDotsHorizontalRounded, BiSignal5 } from 'react-icons/bi';
 import { FcTodoList, FcApproval, FcReddit, FcLowPriority, FcMediumPriority, FcHighPriority, FcCancel, FcProcess, FcAlarmClock, FcAssistant, FcManager, FcServiceMark, FcReading } from "react-icons/fc";
-import './App.css';
+// import './App.css';
 
 
 function App() {
@@ -159,7 +159,7 @@ function App() {
   return (
     <div className="App">
       <div><Navbar setGroup={setGroup} setOrder={setOrder} /></div>
-      <div className="groups-container ">
+      <div className="flex flex-wrap justify-evenly bg-gray-100 ">
         {groupData.length === 0 ? (
           <p>Loading...</p>
         ) : (
